@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="controlsEnabled" type="Bool">
+            <label>Enable the window controls</label>
+            <default>true</default>
+        </entry>
+        <entry name="buttonSize" type="Int">
+            <label>Button diameter (logical pixels)</label>
+            <default>12</default>
+            <min>8</min>
+            <max>32</max>
+        </entry>
+        <entry name="buttonSpacing" type="Int">
+            <label>Spacing between buttons (logical pixels)</label>
+            <default>8</default>
+            <min>0</min>
+            <max>24</max>
+        </entry>
+        <entry name="animationEnabled" type="Bool">
+            <label>Animate appearing and disappearing</label>
+            <default>true</default>
+        </entry>
+        <entry name="animationDuration" type="Int">
+            <label>Animation duration (ms)</label>
+            <default>150</default>
+            <min>0</min>
+            <max>600</max>
+        </entry>
+        <entry name="onlyWhenMaximized" type="Bool">
+            <label>Show only when the target window is maximized</label>
+            <default>true</default>
+        </entry>
+        <entry name="allActivities" type="Bool">
+            <label>Consider windows of all activities (not just the current one)</label>
+            <default>false</default>
+        </entry>
+    </group>
+</kcfg>
